@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>श्रद्धांजलि - राम निहोरी सिंह</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari&display=swap');
+
+        body {
+            margin: 0;
+            font-family: 'Noto Sans Devanagari', sans-serif;
+            background: #fffaf0;
+            color: #333;
+            text-align: center;
+        }
+        header {
+            background-color: #f2e6d9;
+            padding: 20px;
+            border-bottom: 2px solid #ccc;
+        }
+        h1 {
+            font-size: 2.5em;
+            color: #4b2e2e;
+        }
+
+        .photo {
+            position: relative;
+            width: 400px;
+            height: 520px;
+            margin: 20px auto 0;
+            border-radius: 10px;
+            overflow: hidden;
+            background-image: url('photos.jpg');
+            background-size: cover;
+            background-position: center;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+        }
+
+        .rose-base {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 140px;
+            background-image: url('red-roses.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: bottom center;
+            pointer-events: none;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+
+        .details, .biography {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            line-height: 1.8;
+            text-align: justify;
+        }
+
+        .program {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            line-height: 1.8;
+            text-align: center;
+            color: red;
+        }
+
+        .guestbook {
+            margin: 30px auto;
+            max-width: 600px;
+        }
+
+        .guestbook textarea {
+            width: 100%;
+            height: 100px;
+            font-family: 'Noto Sans Devanagari', sans-serif;
+            font-size: 1em;
+            padding: 10px;
+        }
+
+        .flowers {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            overflow: hidden;
+            z-index: 9999;
+        }
+
+        .flower {
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            background-image: url('flower.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            animation: fall linear infinite;
+            z-index: 9999;
+        }
+
+        @keyframes fall {
+            0% { transform: translateY(-50px) rotate(0deg); opacity: 1; }
+            100% { transform: translateY(100vh) rotate(360deg); opacity: 0.8; }
+        }
+
+        footer {
+            background-color: #f2e6d9;
+            padding: 10px;
+            margin-top: 20px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>श्रद्धांजलि</h1>
+        <h2>श्री राम निहोरी सिंह</h2>
+        <p>स्वर्गवास: 20 मई 2025</p>
+    </header>
+
+    <div class="photo">
+        <div class="rose-base"></div>
+    </div>
+
+
+    <section class="biography">
+        <h3>विस्तृत जीवन परिचय</h3>
+        <p>
+            श्री राम निहोरी सिंह जी एक समर्पित और कर्तव्यनिष्ठ सरकारी शिक्षक थे। उन्होंने शिक्षा के क्षेत्र में 25 वर्षों से अधिक सेवा प्रदान की और अनेक छात्र-छात्राओं के जीवन को ज्ञान और संस्कारों से आलोकित किया। 31 जनवरी 2001 को वे गरिमामय ढंग से सेवानिवृत्त हुए, लेकिन शिक्षा और संस्कारों का दीपक जलाते रहना उनका स्वभाव बना रहा।
+        </p>
+        <p>
+            सेवानिवृत्ति के बाद भी श्री राम निहोरी सिंह जी सामाजिक और सांस्कृतिक कार्यों में निरंतर सक्रिय रहे। उन्हें गाँव की परंपराओं, रीति-रिवाजों और संस्कारों में गहरी रुचि थी। विशेष रूप से, वे लग्न पत्रिका (लग्न प्रतिका) लिखने के क्षेत्र में निपुण थे और गाँव के कई परिवारों के विवाह संस्कारों में उनकी भूमिका विशेष रहती थी। वे इस कला के एकमात्र जानकार माने जाते थे और उनके लिखे गए पत्रकों को लोग बड़े श्रद्धा से स्वीकार करते थे।
+        </p>
+        <p>
+            उनकी आत्मा धर्म और संस्कृति में रमी हुई थी। उन्हें महाभारत, रामायण, और अन्य पौराणिक ग्रंथों का गहन अध्ययन करना बहुत पसंद था। वे धार्मिक श्लोकों, कहानियों और उपदेशों को बड़े मनोयोग से पढ़ते और दूसरों के साथ साझा भी करते थे।
+        </p>
+        <p>
+            श्री राम निहोरी सिंह जी न केवल गंभीर और विद्वान व्यक्ति थे, बल्कि उन्हें टीवी देखना और विशेष रूप से क्रिकेट के मैचों का आनंद लेना बहुत पसंद था। क्रिकेट के खिलाड़ी और टीमों की जानकारी वे रखते थे और रोमांच के क्षणों में बाल-सुलभ उत्साह से भर उठते थे।
+        </p>
+        <p>
+            शांत, विनम्र और दृढ़ विचारों वाले इस व्यक्तित्व को परिवार और समाज में अत्यंत सम्मान प्राप्त था। वे नई पीढ़ी के लिए सदैव प्रेरणास्रोत बने रहेंगे।
+        </p>
+        <p><strong>“श्रद्धांजलि अर्पित करता सम्पूर्ण परिवार एवं समाज।”</strong></p>
+    </section>
+
+    <section class="program">
+        <h3>कार्यक्रम विवरण</h3>
+        <p><strong>दशकर्म:</strong> 30.05.2025</p>
+        <p><strong>एकादशा:</strong> 31.05.2025</p>
+        <p><strong>ब्राह्मभोज:</strong> 01.06.2025</p>
+        <p><strong>पीपल में पानी:</strong> 02.06.2025</p>
+    </section>
+
+
+    <section class="guestbook">
+        <h3>अपनी श्रद्धांजलि साझा करें</h3>
+        <textarea placeholder="यहाँ अपनी भावनाएँ लिखें..."></textarea>
+    </section>
+
+    <div class="flowers"></div>
+
+    <!-- Audio Element -->
+    <audio id="bgmusic" autoplay muted loop>
+        <source src="emotional.mp3" type="audio/mpeg" />
+        आपका ब्राउज़र ऑडियो चलाने में असमर्थ है।
+    </audio>
+
+    <footer>
+        यह वेबसाइट श्रद्धांजलि स्वरूप परिवार द्वारा बनाई गई है।
+    </footer>
+
+    <!-- Scripts -->
+    <script>
+        // Falling flowers animation
+        function createFlower() {
+            const flower = document.createElement('div');
+            flower.className = 'flower';
+            flower.style.left = Math.random() * window.innerWidth + 'px';
+            flower.style.animationDuration = (5 + Math.random() * 5) + 's';
+            document.querySelector('.flowers').appendChild(flower);
+            setTimeout(() => flower.remove(), 10000);
+        }
+        setInterval(createFlower, 500);
+
+        // Audio play on user interaction
+        document.addEventListener('click', function () {
+            const audio = document.getElementById('bgmusic');
+            if (audio) {
+                audio.muted = false;
+                audio.play().catch(err => console.log('Autoplay failed:', err));
+            }
+        }, { once: true });
+    </script>
+</body>
+</html>
